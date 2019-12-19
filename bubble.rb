@@ -28,9 +28,6 @@ sorted_numbers = bubble_sort([30,200,70,80])
 
 puts sorted_numbers.join(" ")
 
-#######################################
-
-
 def compare_by_length(left,right)
   value = 0
   if left.length > right.length
@@ -42,8 +39,6 @@ def compare_by_length(left,right)
   end
   return value
 end
-
-
 
 puts compare_by_length("Suliva","Sulivan")
 
@@ -66,6 +61,5 @@ end
 new_sorted_array = array
 return new_sorted_array
 end
-
 
 puts bubble_sort_by(["hi","hello","hey"]) {|str1,str2|compare_by_length(str1,str2)} 
