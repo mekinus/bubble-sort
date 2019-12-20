@@ -5,7 +5,7 @@ x = 0
 i = 0
 
 while x < count - 1
-
+i = 0
 while i < count - x - 1
 if array[i] > array[i + 1]
 leftNumb = array[i]
@@ -24,7 +24,7 @@ return sorted_array
 
 end
 
-sorted_numbers = bubble_sort([30, 200, 70, 80])
+sorted_numbers = bubble_sort([10,9,8,7,6,5,4,3,2,1])
 
 puts sorted_numbers.join(" ")
 
